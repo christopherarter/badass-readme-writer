@@ -1,0 +1,17 @@
+{
+  "id": "tracepick",
+  "type": "CLI",
+  "task": "Improve the root README for a newcomer who wants to filter a stream of newline-delimited JSON logs. Inspect the repository, correct stale claims, and make one useful local path obvious.",
+  "source_files": [
+    "package.json",
+    "bin/tracepick.js",
+    "examples/events.ndjson",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "facts": [
+    "This is a private, unpublished Node.js CLI. The local invocation is node bin/tracepick.js.",
+    "It filters NDJSON from stdin by exact --level value and writes matching original lines to stdout.",
+    "It has no hosted dashboard, benchmark, or published npm install path."
+  ]
+}

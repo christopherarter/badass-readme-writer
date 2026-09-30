@@ -1,0 +1,9 @@
+{
+  "name": "memo-pool-fixture",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deduplicate and briefly cache asynchronous work by key",
+  "main": "src/index.js",
+  "engines": {"node": ">=20"},
+  "license": "MIT"
+}

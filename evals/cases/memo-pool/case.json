@@ -1,0 +1,17 @@
+{
+  "id": "memo-pool",
+  "type": "Library",
+  "task": "Rewrite the package README to show why a developer would use this small library, give a runnable example, and represent its experimental scope accurately.",
+  "source_files": [
+    "package.json",
+    "src/index.js",
+    "examples/basic.js",
+    "STATUS.md",
+    "LICENSE"
+  ],
+  "facts": [
+    "The CommonJS createMemo function caches a resolved async result by string key for a TTL and coalesces concurrent calls for that key.",
+    "The fixture is private and unpublished. The runnable example is node examples/basic.js.",
+    "This is experimental, in-memory only, and does not persist across processes."
+  ]
+}

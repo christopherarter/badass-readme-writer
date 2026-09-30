@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Incident Deck</title>
+  <style>
+    body { margin: 0; background: #f7f8fb; color: #1c2740; font: 16px system-ui, sans-serif; }
+    header { background: #172541; color: white; padding: 24px max(24px, calc((100vw - 860px)/2)); }
+    main { max-width: 860px; margin: 36px auto; padding: 0 24px; }
+    .hint { color: #5b6780; }
+    article { background: white; border: 1px solid #dce2eb; border-left: 5px solid #6583d8; border-radius: 8px; margin: 16px 0; padding: 18px 20px; }
+    time { font-size: 13px; color: #52627d; }
+    h2 { margin: 6px 0; font-size: 18px; }
+    p { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <header><strong>Incident Deck</strong> &nbsp; / &nbsp; Sample incident</header>
+  <main>
+    <h1>Payment API outage</h1>
+    <p class="hint">A read-only timeline of the bundled sample events.</p>
+    <article><time>09:12 UTC</time><h2>Elevated error rate detected</h2><p>Checkout requests begin returning 5xx responses.</p></article>
+    <article><time>09:24 UTC</time><h2>Rollback started</h2><p>The team rolls back the latest deployment.</p></article>
+    <article><time>09:41 UTC</time><h2>Service recovered</h2><p>Error rate returns to baseline.</p></article>
+  </main>
+</body>
+</html>

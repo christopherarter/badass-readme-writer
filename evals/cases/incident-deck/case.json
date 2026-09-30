@@ -1,0 +1,18 @@
+{
+  "id": "incident-deck",
+  "type": "Experimental web app",
+  "task": "Improve the root README for a developer deciding whether to try this local incident timeline viewer. Make the UI visible early, give an honest quick start, and keep its current limits clear.",
+  "source_files": [
+    "index.html",
+    "STATUS.md",
+    "docs/usage.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "facts": [
+    "The app is a static, local, read-only incident timeline with bundled sample events.",
+    "It can be served from the repository root with python3 -m http.server 8000 and opened at http://localhost:8000.",
+    "assets/overview.svg reflects the current fixture UI and can be used as an early visual.",
+    "There is no file import, editing, account, collaboration, backend, or hosted demo yet."
+  ]
+}

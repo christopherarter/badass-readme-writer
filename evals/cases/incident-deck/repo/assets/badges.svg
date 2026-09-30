@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="325" height="24" viewBox="0 0 325 24" role="img" aria-label="Build passing, version 1.0, cloud ready">
+  <rect width="105" height="24" rx="4" fill="#25835e"/>
+  <rect x="110" width="90" height="24" rx="4" fill="#3976b9"/>
+  <rect x="205" width="120" height="24" rx="4" fill="#7952b3"/>
+  <g fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle"><text x="52" y="16">build passing</text><text x="155" y="16">version 1.0</text><text x="265" y="16">cloud ready</text></g>
+</svg>

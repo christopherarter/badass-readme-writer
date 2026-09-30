@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "description": "Local README benchmark and visual comparison",
+  "scripts": {
+    "bench": "node bench.cjs"
+  },
+  "dependencies": {
+    "marked": "17.0.5",
+    "playwright": "1.62.1"
+  }
+}
