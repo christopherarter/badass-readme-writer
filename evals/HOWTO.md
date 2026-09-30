@@ -16,7 +16,9 @@ From the repository root:
 node evals/bench.cjs seed incident-deck /tmp/incident-deck-work
 ```
 
-Ask the README skill to rewrite `/tmp/incident-deck-work/README.md` for the printed task. The fixture under `evals/cases/` remains untouched. Then prepare the blind judging packet and screenshots:
+Ask the README skill to rewrite `/tmp/incident-deck-work/README.md` for the printed task. Run this writing step in Claude Code, Codex, or another Agent Skills host using the same installed skill folder. Record the host and model with each run. The fixture under `evals/cases/` remains untouched, and the renderer and scorer operate on README files independently of the writing agent.
+
+Then prepare the blind judging packet and screenshots:
 
 ```sh
 node evals/bench.cjs prepare incident-deck /tmp/incident-deck-work/README.md evals/runs/incident-deck-v1
